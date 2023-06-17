@@ -4,29 +4,28 @@
  * main - Entry point
  *
  * description: A C program for print numbers
- * from 0 -> 9  combinations of 2 numbers
+ * from 0 -> 9  combinations of 2 of 2 numbers
  *
  * Return: Always 0 (Success)
 */
 int main(void)
 {
-	int i, j, z;
+	int i, j;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (j = i + 1; j <= 9; j++)
+		for (j = i + 1; j < 100; j++)
 		{
-			for (z = j + 1; z <= 9; z++)
-			{
-				putchar('0' + i);
-				putchar('0' + j);
-				putchar('0' + z);
+			putchar('0' + i / 10);
+			putchar('0' + i % 10);
+			putchar(' ');
+			putchar('0' + j / 10);
+			putchar('0' + j % 10);
 
-				if (i != 7 || j != 8 || z != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			if (i != 98 || j != 99)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
