@@ -1,7 +1,6 @@
-#include <stdlib.h>
+i#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-int main(void)
 
 /**
  * main - Entry point
@@ -11,7 +10,7 @@ int main(void)
  *
  * Return: Always 0 (Success)
  */
-
+int main(void)
 {
 	int n, last;
 
