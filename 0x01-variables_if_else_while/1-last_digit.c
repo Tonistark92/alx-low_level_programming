@@ -2,6 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 int main(void)
+
+/**
+ * main - Entry point
+ *
+ * Description: A C program to determine last number is
+ * 0 or greater than 5 or less than 6 and not 0
+ *
+ * Return: Always 0 (Success)
+ */
+
 {
 	int n, last;
 

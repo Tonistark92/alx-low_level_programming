@@ -1,5 +1,14 @@
 #include <stdio.h>
 int main(void)
+
+/**
+ * main - Entry point
+ *
+ * description: A C program for print alphabet in lowercase
+ * except e,and q letter using putchar(char i)
+ *
+ * Return: Always 0 (Success)
+*/
 {
 	char i;
 
