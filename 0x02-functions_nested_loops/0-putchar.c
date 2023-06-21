@@ -1,15 +1,16 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _putchar - Implementation
+ * main - Implementation
  *
  * Description: implement for putchar function
  *
- * Return: 1 on Success, -1 on error
+ * Return: 0 on Success
 */
 
-void _putchar(char c)
+int main(void)
 {
-    write(1, &c, 1);
+	printf("_putchar\n");
+	return (0);
+
 }
