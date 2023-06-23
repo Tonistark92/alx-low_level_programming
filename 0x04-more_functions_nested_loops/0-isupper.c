@@ -7,10 +7,10 @@
  * returns a 0 if is lowwer and 1 if upper
 */
 
-int _isupper(int c)
+int _isupper(char c)
 {
     if (isupper(c))
-        return 1;
-    else
         return 0;
+    else
+        return 1;
 }
