@@ -7,7 +7,7 @@
  * returns a 0 if is lowwer and 1 if upper
 */
 
-int _isupper(char c)
+int _isupper(int c)
 {
     if (isupper(c))
         return 1;
