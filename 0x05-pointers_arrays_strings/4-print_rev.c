@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - function implementation
+ * print_rev - function implementation
  *
  * Description: A C program to swap two params
  * @s: the number to swap
@@ -21,7 +21,7 @@ void print_rev(char *s)
 	length++;
 	}
 
-	while (s[length] != 0)
+	while (s[length+1] >= 0)
 	{
 		_putchar(s[length]);
 		length--;
