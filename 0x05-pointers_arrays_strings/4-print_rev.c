@@ -23,7 +23,7 @@ void print_rev(char *s)
 
 	while (s[length] != 0)
 	{
-		_putchar(*(str + i));
+		_putchar(s[length]);
 		length--;
 	}
 	_putchar('\n');
